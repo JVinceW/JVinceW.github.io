@@ -1,0 +1,83 @@
+I"�<h2 id="professional">Professional</h2>
+
+<h2 id="altair-breaker">Altair-breaker</h2>
+<p><strong>Official Page</strong>: https://altair-breaker.com<br />
+<strong>Company</strong>: <a href="https://www.thirdverse.io/ja/">Thirdverse, Co., Ltd (Japan)</a><br />
+<strong>Year</strong>: 2022</p>
+
+<p>Release Globally on Steam, Meta Quest Store and PlayStation VR2, this is a VR multiplayer Sword-fighting game.</p>
+<ul>
+  <li>First project working with UE4, UE C++ and Blueprint. Learning by hands-on real project. Almost all of my previous project is working with Unity C#</li>
+  <li>Enforce many modern C++ practice such as smart pointers, RAII, templates,…</li>
+  <li>Work on design and implement game-play logic of drone creep, turret-bullet, new boss and some misc stuffs of battle system</li>
+  <li>Improve the master data CI flow.</li>
+  <li>Some code performance optimization.</li>
+  <li>Do code review.</li>
+  <li>Bug fix.
+<img src="../assets/images/altair_breaker_drone.png" alt="" />
+<a href="https://www.youtube.com/watch?v=MchyLijeVPw">Launch Trailer</a></li>
+</ul>
+
+<h2 id="x8">X8</h2>
+<p><strong>Official Page</strong>: https://playx8vr.com/en  <br />
+<strong>Company</strong>: <a href="https://www.thirdverse.io/ja/">Thirdverse, Co., Ltd (Japan)</a>, <a href="https://www.thirdverse.io/en/">Thirdverse, Inc. (US)</a><br />
+<strong>Year</strong>: 2022 - 2023</p>
+
+<p>Currently Release Globally on Steam, Meta Quest Store and soon will be release on PlayStation VR2, a VR multiplayer shooter game.</p>
+<ul>
+  <li>First project working with UE GAS framework.</li>
+  <li>Main design and implement the player statistic data tracking system, achievement system.</li>
+  <li>Investigation and support on third party matchmaking system.</li>
+  <li>Some code performance optimization to work on Oculus Quest.</li>
+  <li>Do code review.</li>
+  <li>Start research UE and game rendering pipeline, shader stuffs.</li>
+</ul>
+
+<h2 id="izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</h2>
+<p><strong>Official Page</strong>: https://10antz.co.jp/business/izone-remember-z<br />
+<strong>Company</strong>: <a href="https://10antz.co.jp/company/profile/">10ANTZ</a><br />
+<strong>Year</strong>: 2019-2021</p>
+
+<p>An Japan idol group orient game application, currently it’s ended of service. This game is 2D UI base game.</p>
+
+<p><strong>For technical</strong>:</p>
+<ul>
+  <li>Design and implement database and client event game-play system</li>
+  <li>Develop some editor tools to speed up operation speed, make work smoother with game operation team, cut scene animation,…</li>
+  <li>Take part in design and implement the asset management system using Unity legacy Asset Bundle.</li>
+  <li>Design and maintenance CI/CD flow for client side, take main responsibility on app release to PlayStore and AppStore.</li>
+  <li>Do some R&amp;D to implement XR experience into app.</li>
+  <li>Implement native plugin to work with other twitter third party plugin.</li>
+  <li>Research and implement Firebase Remote Config into our application.</li>
+  <li>Code optimization.</li>
+  <li>Code review.</li>
+  <li>Present at internal technical conference.</li>
+  <li>Help and coach junior programmers.</li>
+</ul>
+
+<p><strong>For management</strong>:</p>
+<ul>
+  <li>Manage development schedule, WBS,…</li>
+  <li>Try to apply agile scrum into development process.</li>
+</ul>
+
+<h2 id="rd">R&amp;D</h2>
+<p><strong>Company</strong>: <a href="https://10antz.co.jp/company/profile/">10ANTZ</a><br />
+<strong>Year</strong>: 2021</p>
+
+<ul>
+  <li>With experience with XR development from my freelance side jobs, I was assigned to some research and documentation tasks related to Vuforia and ARFoundation and created some prototypes for new game applications using XR experience.</li>
+  <li>Research and apply the Unity UnitTest framework to the development process. (TDD)</li>
+</ul>
+
+<h2 id="hinakoi-ひな恋">HinaKoi (ひな恋)</h2>
+<p><strong>Company</strong>: <a href="https://10antz.co.jp/company/profile/">10ANTZ</a><br />
+<strong>Year</strong>: 2021</p>
+
+<p>An Japan idol group orient game application, currently it’s ended of service. This game is 2D UI base game.</p>
+<ul>
+  <li>The development process using Unity 2020.</li>
+  <li>Working on several game-play design and implementation.</li>
+  <li>Working as a platform engineer, hands-on design and modified many common system for the in-house framework. (such as API system, Asset Management System,…)</li>
+</ul>
+:ET
