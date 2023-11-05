@@ -15,3 +15,9 @@ github:
   href: 'https://github.com/'
   title: 'GitHub'
   fa-icon: 'fa-github-square'
+
+linkedin:
+  id: 'vince-wang-b30b8612a'
+  href: 'https://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin-square'
