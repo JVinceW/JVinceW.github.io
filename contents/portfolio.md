@@ -4,18 +4,21 @@ title: Quyen's Porfolio
 permalink: portfolio
 ---
 
-- [Professional](#professional)
-- [Altair-breaker](#altair-breaker)
-- [X8](#x8)
-- [IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE](#izone-remember-z---prince-of-legend-love-royale)
-- [Research and Develop](#research-and-develop)
-- [HinaKoi  (ひな恋)](#hinakoi--ひな恋)
-- [Crane Remote Control Simulation application](#crane-remote-control-simulation-application)
-- [Motion capture using OpenPose Library](#motion-capture-using-openpose-library)
-- [Research and Develop using RDP to remote PC from Hololens](#research-and-develop-using-rdp-to-remote-pc-from-hololens)
-- [Hoshinari Echos](#hoshinari-echos)
+- [Professional Work](#professional-work)
+    - [Altair-breaker](#altair-breaker)
+  - [X8](#x8)
+  - [IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE](#izone-remember-z---prince-of-legend-love-royale)
+  - [Research and Develop](#research-and-develop)
+  - [HinaKoi  (ひな恋)](#hinakoi--ひな恋)
+  - [Crane Remote Control Simulation application](#crane-remote-control-simulation-application)
+  - [Motion capture using OpenPose Library](#motion-capture-using-openpose-library)
+  - [Research and Develop using RDP to remote PC from Hololens](#research-and-develop-using-rdp-to-remote-pc-from-hololens)
+  - [Hoshinari Echos](#hoshinari-echos)
+  - [Pocket Land - CocopaPlay - Yume100](#pocket-land---cocopaplay---yume100)
+- [Personal - Freelance Work](#personal---freelance-work)
+  - [WanakaFarm](#wanakafarm)
 
-## Professional
+# Professional Work
 
 ### Altair-breaker
 [**Official Page**](https://altair-breaker.com)  
@@ -142,5 +145,30 @@ I am currently involved in a project collaborating with a dedicated Vietnam-base
 + Main maintainer for both server and client side of CocopaPlay game, which developed with Java Seasar Struts 2. Take main responsibility on application release and operation pipeline
 + Take part in implement prototype for title [Yume100](https://www.yume-100.com/), which become big successful title of company at that time. This title using Cocos2dx C++ with some in-house customize for performance optimization.
 
+---
 
+# Personal - Freelance Work
+## WanakaFarm
+[Official Page](https://wanakafarm.com/)  
+**Company**: [WanakaFarm](https://wanakafarm.com/)
+**Year**: 2021 - 2022
 
+NFT game project, working as client side team leader. Take all responsibility of client implementation and the client team.
++ Design and implement CI/CD process, game core system, editor tools.
++ Research and implement third party CryptoCurrency wallet integration library, work directly with CTO and blockchain engineers to resolve some authentication problem.
++ Decide technologies and plugin to use inside our production.
++ Work as Scrum master, apply agile development process into the project.
+
+## ARDK travel application
+**Year**: 2023
+
++ This project is to create a scene in unity using ARDK and build it into library format so that client can implement that library into there application.
++ Using ARDK SDK to scan the real location waypoint application.
++ This totally a one man project, I hands-on all the  development process from design, consult to client how to create game play UX that make user feel comfortable
++ Working with native application engineer to design and implement the data flow so that the library can communicate with the native side.
++ Design asset management system so that client can easily update new location and new content.
+
+## Unity ECS and multiplayer package research
+
+Currently I'm doing some research as personal hobby, to learn Unity new DOTS ECS and some multiplayer framework.
+Will update the process on my medium site.

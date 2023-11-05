@@ -1,17 +1,26 @@
-I"�%<ul>
-  <li><a href="#professional">Professional</a></li>
-  <li><a href="#altair-breaker">Altair-breaker</a></li>
-  <li><a href="#x8">X8</a></li>
-  <li><a href="#izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</a></li>
-  <li><a href="#research-and-develop">Research and Develop</a></li>
-  <li><a href="#hinakoi--ひな恋">HinaKoi  (ひな恋)</a></li>
-  <li><a href="#crane-remote-control-simulation-application">Crane Remote Control Simulation application</a></li>
-  <li><a href="#motion-capture-using-openpose-library">Motion capture using OpenPose Library</a></li>
-  <li><a href="#research-and-develop-using-rdp-to-remote-pc-from-hololens">Research and Develop using RDP to remote PC from Hololens</a></li>
-  <li><a href="#hoshinari-echos">Hoshinari Echos</a></li>
+I"].<ul>
+  <li><a href="#professional-work">Professional Work</a>
+    <ul>
+      <li><a href="#altair-breaker">Altair-breaker</a></li>
+      <li><a href="#x8">X8</a></li>
+      <li><a href="#izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</a></li>
+      <li><a href="#research-and-develop">Research and Develop</a></li>
+      <li><a href="#hinakoi--ひな恋">HinaKoi  (ひな恋)</a></li>
+      <li><a href="#crane-remote-control-simulation-application">Crane Remote Control Simulation application</a></li>
+      <li><a href="#motion-capture-using-openpose-library">Motion capture using OpenPose Library</a></li>
+      <li><a href="#research-and-develop-using-rdp-to-remote-pc-from-hololens">Research and Develop using RDP to remote PC from Hololens</a></li>
+      <li><a href="#hoshinari-echos">Hoshinari Echos</a></li>
+      <li><a href="#pocket-land---cocopaplay---yume100">Pocket Land - CocopaPlay - Yume100</a></li>
+    </ul>
+  </li>
+  <li><a href="#personal---freelance-work">Personal - Freelance Work</a>
+    <ul>
+      <li><a href="#wanakafarm">WanakaFarm</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="professional">Professional</h2>
+<h1 id="professional-work">Professional Work</h1>
 
 <h3 id="altair-breaker">Altair-breaker</h3>
 <p><a href="https://altair-breaker.com"><strong>Official Page</strong></a><br />
@@ -159,4 +168,35 @@
   <li>Take part in implement prototype for title <a href="https://www.yume-100.com/">Yume100</a>, which become big successful title of company at that time. This title using Cocos2dx C++ with some in-house customize for performance optimization.</li>
 </ul>
 
+<hr />
+
+<h1 id="personal---freelance-work">Personal - Freelance Work</h1>
+<h2 id="wanakafarm">WanakaFarm</h2>
+<p><a href="https://wanakafarm.com/">Official Page</a><br />
+<strong>Company</strong>: <a href="https://wanakafarm.com/">WanakaFarm</a>
+<strong>Year</strong>: 2021 - 2022</p>
+
+<p>NFT game project, working as client side team leader. Take all responsibility of client implementation and the client team.</p>
+<ul>
+  <li>Design and implement CI/CD process, game core system, editor tools.</li>
+  <li>Research and implement third party CryptoCurrency wallet integration library, work directly with CTO and blockchain engineers to resolve some authentication problem.</li>
+  <li>Decide technologies and plugin to use inside our production.</li>
+  <li>Work as Scrum master, apply agile development process into the project.</li>
+</ul>
+
+<h2 id="ardk-travel-application">ARDK travel application</h2>
+<p><strong>Year</strong>: 2023</p>
+
+<ul>
+  <li>This project is to create a scene in unity using ARDK and build it into library format so that client can implement that library into there application.</li>
+  <li>Using ARDK SDK to scan the real location waypoint application.</li>
+  <li>This totally a one man project, I hands-on all the  development process from design, consult to client how to create game play UX that make user feel comfortable</li>
+  <li>Working with native application engineer to design and implement the data flow so that the library can communicate with the native side.</li>
+  <li>Design asset management system so that client can easily update new location and new content.</li>
+</ul>
+
+<h2 id="unity-ecs-and-multiplayer-package-research">Unity ECS and multiplayer package research</h2>
+
+<p>Currently I’m doing some research as personal hobby, to learn Unity new DOTS ECS and some multiplayer framework.
+Will update the process on my medium site.</p>
 :ET
