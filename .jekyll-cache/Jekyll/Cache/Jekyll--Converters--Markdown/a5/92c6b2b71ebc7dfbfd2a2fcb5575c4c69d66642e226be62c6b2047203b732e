@@ -1,6 +1,19 @@
-I"�<h2 id="professional">Professional</h2>
+I"�%<ul>
+  <li><a href="#professional">Professional</a></li>
+  <li><a href="#altair-breaker">Altair-breaker</a></li>
+  <li><a href="#x8">X8</a></li>
+  <li><a href="#izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</a></li>
+  <li><a href="#research-and-develop">Research and Develop</a></li>
+  <li><a href="#hinakoi--ひな恋">HinaKoi  (ひな恋)</a></li>
+  <li><a href="#crane-remote-control-simulation-application">Crane Remote Control Simulation application</a></li>
+  <li><a href="#motion-capture-using-openpose-library">Motion capture using OpenPose Library</a></li>
+  <li><a href="#research-and-develop-using-rdp-to-remote-pc-from-hololens">Research and Develop using RDP to remote PC from Hololens</a></li>
+  <li><a href="#hoshinari-echos">Hoshinari Echos</a></li>
+</ul>
 
-<h2 id="altair-breaker">Altair-breaker</h2>
+<h2 id="professional">Professional</h2>
+
+<h3 id="altair-breaker">Altair-breaker</h3>
 <p><a href="https://altair-breaker.com"><strong>Official Page</strong></a><br />
 <strong>Company</strong>: <a href="https://www.thirdverse.io/ja/">Thirdverse, Co., Ltd (Japan)</a><br />
 <strong>Year</strong>: 2022</p>
@@ -35,6 +48,8 @@
 <a href="https://www.youtube.com/watch?v=P_U4zoeIxs8">Game-play review</a></li>
 </ul>
 
+<hr />
+
 <h2 id="izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</h2>
 <p><a href="https://10antz.co.jp/business/izone-remember-z"><strong>Official Page</strong></a><br />
 <strong>Company</strong>: <a href="https://10antz.co.jp/company/profile/">10ANTZ</a><br />
@@ -63,7 +78,7 @@
   <li>Try to apply agile scrum into development process.</li>
 </ul>
 
-<h2 id="rd">R&amp;D</h2>
+<h2 id="research-and-develop">Research and Develop</h2>
 <p><strong>Company</strong>: <a href="https://10antz.co.jp/company/profile/">10ANTZ</a><br />
 <strong>Year</strong>: 2021</p>
 
@@ -84,6 +99,8 @@
   <li>Working as a platform engineer, hands-on design and implement many common system for the new <strong>in-house framework</strong>. (such as API system, Asset Management System,…)</li>
 </ul>
 
+<hr />
+
 <h2 id="crane-remote-control-simulation-application">Crane Remote Control Simulation application</h2>
 <p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a>
 <strong>Year</strong>: 2018</p>
@@ -97,7 +114,49 @@
 </ul>
 
 <h2 id="motion-capture-using-openpose-library">Motion capture using OpenPose Library</h2>
-<p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a>
+<p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a><br />
+<strong>Year</strong>: 2018</p>
+
+<p>A project that use for exhibition for VTuber. Using <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> library and webcam to detect humance motion, capture motion bone data and use that data to update a 3D model inside unity.</p>
+<ul>
+  <li>One man project. Take responsibility working directly with client to decide what to implement and implement all the feature
+<img src="../assets/images/OpenPose.png" alt="" /></li>
+</ul>
+
+<h2 id="research-and-develop-using-rdp-to-remote-pc-from-hololens">Research and Develop using RDP to remote PC from Hololens</h2>
+<p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a><br />
 <strong>Year</strong>: 2018 - 2019</p>
+
+<p>I am currently involved in a project collaborating with a dedicated Vietnam-based outsourcing team. Together, we are working on a prototype production in partnership with the Tokyo Electric Group to create a mixed-reality (MR) experience for working in hazardous environments.</p>
+<ul>
+  <li>Research and understand low level API of the <a href="https://github.com/FreeRDP/FreeRDP">FreeRDP</a> library.</li>
+  <li>Research, Implement and testing with Hololens 1.</li>
+  <li>Working and Bridge engineer, take responsibility to make the communication between client and development team smooth. Also do task management for Vietnam team.</li>
+</ul>
+
+<hr />
+
+<h2 id="hoshinari-echos">Hoshinari Echos</h2>
+<p><a href="https://www.hoshinari.jp/"><strong>Official Page</strong></a><br />
+<strong>Company</strong>: <a href="https://www.gcrest.com/">GCrest</a> - <a href="https://www.cyberagent.co.jp/en/">CyberAgent Japan</a>
+<strong>Year</strong>: 2016 - 2018</p>
+
+<ul>
+  <li>Design and implement room simulation game-play logic (a main feature of the game, which simulate the character daily life).</li>
+  <li>Research and using various third party tools: A* PathFinding, Behaviour Tree, Spine, NGUI,…</li>
+  <li>Implement some Editor tool to speed up working process.</li>
+  <li>Implement client side platform system.</li>
+  <li>Working as sub-leader of client team, I take responsibility on manage task for client team. And many many kinds of management task.</li>
+</ul>
+
+<h2 id="pocket-land---cocopaplay---yume100">Pocket Land - CocopaPlay - Yume100</h2>
+<p><strong>Company</strong>: <a href="https://www.gcrest.com/">GCrest</a> - <a href="https://www.cyberagent.co.jp/en/">CyberAgent Japan</a>
+<strong>Year</strong>: 2015 - 2016</p>
+
+<ul>
+  <li>Migration chat system database from mongoDB to PostgreSQL</li>
+  <li>Main maintainer for both server and client side of CocopaPlay game, which developed with Java Seasar Struts 2. Take main responsibility on application release and operation pipeline</li>
+  <li>Take part in implement prototype for title <a href="https://www.yume-100.com/">Yume100</a>, which become big successful title of company at that time. This title using Cocos2dx C++ with some in-house customize for performance optimization.</li>
+</ul>
 
 :ET
