@@ -36,6 +36,7 @@ Release Globally on Steam, Meta Quest Store and PlayStation VR2, this is a VR mu
 + Some code performance optimization.
 + Do code review.
 + Bug fix.
+
 ![](../assets/images/altair_breaker_drone.png)
 [Launch Trailer](https://www.youtube.com/watch?v=MchyLijeVPw)
 
@@ -51,9 +52,12 @@ Currently Release Globally on Steam, Meta Quest Store and soon will be release o
 + Some code performance optimization to work on Oculus Quest.
 + Do code review.
 + Start research UE and game rendering pipeline, shader stuffs.
-![](../assets/images/X8.png)
-[Game-play review](https://www.youtube.com/watch?v=P_U4zoeIxs8)
 
+![](../assets/images/X8.png)
+[Game-play review](https://www.youtube.com/watch?v=P_U4zoeIxs8)  
+
+![](../assets/images/X8_metaconnect.jpg)
+X8 was introduce by Meta at Meta connect 2023 event  
 
 ---
 
