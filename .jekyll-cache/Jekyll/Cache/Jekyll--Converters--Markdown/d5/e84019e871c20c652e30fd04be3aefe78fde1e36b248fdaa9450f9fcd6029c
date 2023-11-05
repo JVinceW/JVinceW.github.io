@@ -1,4 +1,4 @@
-I"].<ul>
+I"&5<ul>
   <li><a href="#professional-work">Professional Work</a>
     <ul>
       <li><a href="#altair-breaker">Altair-breaker</a></li>
@@ -16,6 +16,9 @@
   <li><a href="#personal---freelance-work">Personal - Freelance Work</a>
     <ul>
       <li><a href="#wanakafarm">WanakaFarm</a></li>
+      <li><a href="#ardk-travel-application">ARDK travel application</a></li>
+      <li><a href="#unity-ecs-and-multiplayer-package-research">Unity ECS and multiplayer package research</a></li>
+      <li><a href="#studying-graphic-programming-wip">Studying Graphic programming (WIP)</a></li>
     </ul>
   </li>
 </ul>
@@ -171,6 +174,9 @@
 <hr />
 
 <h1 id="personal---freelance-work">Personal - Freelance Work</h1>
+
+<p>In my leisure time, I enjoy embarking on various small-scale projects that cater to a multitude of purposes. Some are purely for the sheer enjoyment of it, allowing me to express my creativity and experiment with new ideas. Others serve as valuable opportunities for learning and self-improvement, helping me stay at the forefront of the latest trends and technologies in the field. Occasionally, I also delve into freelance projects, putting my skills to good use while contributing to exciting endeavors outside of my regular work commitments.</p>
+
 <h2 id="wanakafarm">WanakaFarm</h2>
 <p><a href="https://wanakafarm.com/">Official Page</a><br />
 <strong>Company</strong>: <a href="https://wanakafarm.com/">WanakaFarm</a>
@@ -199,4 +205,13 @@
 
 <p>Currently I’m doing some research as personal hobby, to learn Unity new DOTS ECS and some multiplayer framework.
 Will update the process on my medium site.</p>
+
+<h2 id="studying-graphic-programming-wip">Studying Graphic programming (WIP)</h2>
+
+<p>In addition to my work in ECS, I’ve been fortunate to collaborate with an incredible team of industry veterans who have contributed to major projects such as the FF series, CyberPunk, Bayonetta, and more. This unique opportunity has ignited my passion for graphic programming, and while I’m still in the learning process, I haven’t documented my journey extensively. However, I can provide an overview of what I’ve been working on:</p>
+
+<ul>
+  <li>Following the tutorials on learnopengl.com to build a solid foundation of essential graphic programming knowledge.</li>
+  <li>Conducting in-depth analyses of Unreal Engine’s rendering pipeline, texture formats, shaders, and command buffers, with the aim of gaining a deeper understanding of advanced graphics concepts and techniques.</li>
+</ul>
 :ET

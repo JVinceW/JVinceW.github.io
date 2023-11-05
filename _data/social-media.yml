@@ -1,0 +1,17 @@
+email:
+  id: 'jvvincewang@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope-square'
+
+twitter:
+  id: 'vincewang1992'
+  href: 'https://twitter.com/'
+  title: 'Twitter'
+  fa-icon: 'fa-twitter-square'
+
+github:
+  id: 'JVinceW'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github-square'

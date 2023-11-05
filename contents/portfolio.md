@@ -17,6 +17,9 @@ permalink: portfolio
   - [Pocket Land - CocopaPlay - Yume100](#pocket-land---cocopaplay---yume100)
 - [Personal - Freelance Work](#personal---freelance-work)
   - [WanakaFarm](#wanakafarm)
+  - [ARDK travel application](#ardk-travel-application)
+  - [Unity ECS and multiplayer package research](#unity-ecs-and-multiplayer-package-research)
+  - [Studying Graphic programming (WIP)](#studying-graphic-programming-wip)
 
 # Professional Work
 
@@ -148,6 +151,9 @@ I am currently involved in a project collaborating with a dedicated Vietnam-base
 ---
 
 # Personal - Freelance Work
+
+In my leisure time, I enjoy embarking on various small-scale projects that cater to a multitude of purposes. Some are purely for the sheer enjoyment of it, allowing me to express my creativity and experiment with new ideas. Others serve as valuable opportunities for learning and self-improvement, helping me stay at the forefront of the latest trends and technologies in the field. Occasionally, I also delve into freelance projects, putting my skills to good use while contributing to exciting endeavors outside of my regular work commitments.
+
 ## WanakaFarm
 [Official Page](https://wanakafarm.com/)  
 **Company**: [WanakaFarm](https://wanakafarm.com/)
@@ -172,3 +178,10 @@ NFT game project, working as client side team leader. Take all responsibility of
 
 Currently I'm doing some research as personal hobby, to learn Unity new DOTS ECS and some multiplayer framework.
 Will update the process on my medium site.
+
+## Studying Graphic programming (WIP)
+
+In addition to my work in ECS, I've been fortunate to collaborate with an incredible team of industry veterans who have contributed to major projects such as the FF series, CyberPunk, Bayonetta, and more. This unique opportunity has ignited my passion for graphic programming, and while I'm still in the learning process, I haven't documented my journey extensively. However, I can provide an overview of what I've been working on:
+
++ Following the tutorials on learnopengl.com to build a solid foundation of essential graphic programming knowledge.
++ Conducting in-depth analyses of Unreal Engine's rendering pipeline, texture formats, shaders, and command buffers, with the aim of gaining a deeper understanding of advanced graphics concepts and techniques.
