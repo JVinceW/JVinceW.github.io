@@ -2,22 +2,34 @@ email:
   id: 'jvvincewang@gmail.com'
   href: 'mailto:'
   title: 'Email'
-  fa-icon: 'fa-envelope-square'
+  fa-icon: 'fa-envelope-square fa-3x'
 
 twitter:
   id: 'vincewang1992'
   href: 'https://twitter.com/'
   title: 'Twitter'
-  fa-icon: 'fa-twitter-square'
+  fa-icon: 'fa-twitter-square fa-3x'
 
 github:
   id: 'JVinceW'
   href: 'https://github.com/'
   title: 'GitHub'
-  fa-icon: 'fa-github-square'
+  fa-icon: 'fa-github-square fa-3x'
 
 linkedin:
   id: 'vince-wang-b30b8612a'
   href: 'https://www.linkedin.com/in/'
   title: 'LinkedIn'
-  fa-icon: 'fa-linkedin-square'
+  fa-icon: 'fa-linkedin-square fa-3x'
+
+medium:
+  id: 'vincewang10a7'
+  href: 'https://medium.com/@'
+  title: 'Medium'
+  fa-icon: 'fa-medium fa-3x'
+
+qiita:
+  id: 'jvince'
+  href: 'https://qiita.com/'
+  title: 'Qiita'
+  fa-icon: 'fa-book fa-3x'
