@@ -8,5 +8,5 @@ permalink: /resume/view
 
 [1]:{{ site.url }}/assets/docs/resume.pdf
 
-<object data="../assets/docs/resume.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="../assets/docs/resume_122023.pdf" width="1000" height="1000" type='application/pdf'></object>
 
