@@ -1,7 +1,7 @@
 # Site settings
-title_left    : "Vuong Que Quyen - Game Developer"
+title_left    : "Quyen Vuong - Game Developer"
 title_right   : "" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+description   : "Day dreamer, night coder, and a life long learner."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace, vincewang"
 url           : "" # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
