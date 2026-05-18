@@ -8,6 +8,16 @@
 
 ![SCREENSHOT](https://i.imgur.com/1YS078k.png)
 
+## Development
+
+This site uses Ruby 3.3.11 for local builds.
+
+```bash
+bundle install
+bundle exec jekyll build
+bundle exec jekyll serve
+```
+
 ## License
 
 [MIT](LICENSE.md)
