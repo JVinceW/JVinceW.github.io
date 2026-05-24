@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Quyen's Porfolio
+title: Quyen's Portfolio
 permalink: portfolio
 ---
 
 - [Professional Work](#professional-work)
-    - [Altair-breaker](#altair-breaker)
+  - [HypeReel Vietnam (YGG Vietnam)](#hypereel-vietnam-ygg-vietnam)
+  - [Thankslab VN](#thankslab-vn)
+  - [Altair-breaker](#altair-breaker)
   - [X8](#x8)
   - [IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE](#izone-remember-z---prince-of-legend-love-royale)
   - [Research and Develop](#research-and-develop)
@@ -23,9 +25,41 @@ permalink: portfolio
 
 # Professional Work
 
+## HypeReel Vietnam (YGG Vietnam)
+[**Official Page**](https://lol.land)  
+**Company**: [HypeReel Vietnam](https://hypereel.io/) ([YGG Vietnam](https://www.yggplay.fun))  
+**Year**: 2024 - Present
+
+Unity team leadership and engineering management for Web3 game production.
++ Oversee client game development processes on the engineering side.
++ Design and maintain in-house game development framework.
++ Evaluate and define technical stack and technical direction for company projects.
++ Lead hiring process and mentorship programs for the engineering team.
++ Participate in game design discussions and provide technical feedback on features.
++ Manage team operations and contribute to broader organizational planning.
++ Collaborate with overseas engineers and cross-functional teams to deliver high-quality production.
++ Design workflows, skill standards, and pipelines for engineers co-working with AI agents.
++ Work with Unity WebGL, AI agent workflows, AWS, GCP, Jenkins, and GitHub Actions.
+
+---
+
+## Thankslab VN
+**Company**: Thankslab VN  
+**Year**: 2024 - 2026
+
+Senior Unity development role supporting cross-team production between Vietnam and Japan.
++ Implemented native plugins for Google, X (Twitter), and LINE login service integrations.
++ Reworked and improved the networking system architecture.
++ Designed new development workflow and coding standards for the Vietnam team.
++ Conducted code reviews and mentored junior developers.
++ Collaborated with Japan-side engineers to keep cross-team development smooth.
++ Worked onsite from Apr 2024 to Jul 2024, then continued as a remote freelancer from Aug 2024 to Feb 2026.
+
+---
+
 ### Altair-breaker
 [**Official Page**](https://altair-breaker.com)  
-**Company**: [Thirdverse, Co., Ltd (Japan)](https://www.thirdverse.io/ja/)  
+**Company**: [Thirdverse, Co., Ltd](https://www.thirdverse.io)
 **Year**: 2022
 
 Release Globally on Steam, Meta Quest Store and PlayStation VR2, this is a VR multiplayer Sword-fighting game.
@@ -42,7 +76,7 @@ Release Globally on Steam, Meta Quest Store and PlayStation VR2, this is a VR mu
 
 ## X8
 [**Official Page**](https://playx8vr.com/en/)    
-**Company**: [Thirdverse, Co., Ltd (Japan)](https://www.thirdverse.io/ja/), [Thirdverse, Inc. (US)](https://www.thirdverse.io/en/)  
+**Company**: [Thirdverse, Co., Ltd](https://www.thirdverse.io)
 **Year**: 2022 - 2023
 
 Currently Release Globally on Steam, Meta Quest Store and soon will be release on PlayStation VR2, a VR multiplayer shooter game.
@@ -105,7 +139,7 @@ An Japan idol group orient game application, currently it's ended of service. Th
 --- 
 
 ## Crane Remote Control Simulation application
-**Company**: [PocketQueries](http://quantize-world.com/)
+**Company**: [PocketQueries](https://www.pocket-queries.co.jp/)
 **Year**: 2018
 
 This is a prototype simulation app using Oculus Rift and Haptic device, 3D mouse to control the crane remotely. The purpose of this app is not for business but for research and exhibition. 
@@ -115,7 +149,7 @@ This is a prototype simulation app using Oculus Rift and Haptic device, 3D mouse
 ![](../assets/images/Kobelco.jpeg)
 
 ## Motion capture using OpenPose Library
-**Company**: [PocketQueries](http://quantize-world.com/)  
+**Company**: [PocketQueries](https://www.pocket-queries.co.jp/)  
 **Year**: 2018
 
 A project that use for exhibition for VTuber. Using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) library and webcam to detect humance motion, capture motion bone data and use that data to update a 3D model inside unity.
@@ -123,7 +157,7 @@ A project that use for exhibition for VTuber. Using [OpenPose](https://github.co
 ![](../assets/images/OpenPose.png)
 
 ## Research and Develop using RDP to remote PC from Hololens
-**Company**: [PocketQueries](http://quantize-world.com/)  
+**Company**: [PocketQueries](https://www.pocket-queries.co.jp/)  
 **Year**: 2018 - 2019
 
 I am currently involved in a project collaborating with a dedicated Vietnam-based outsourcing team. Together, we are working on a prototype production in partnership with the Tokyo Electric Group to create a mixed-reality (MR) experience for working in hazardous environments. 

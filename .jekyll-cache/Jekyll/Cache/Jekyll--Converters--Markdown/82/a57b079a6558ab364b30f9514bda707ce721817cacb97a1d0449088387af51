@@ -1,6 +1,8 @@
-I"«5<ul>
+I"·=<ul>
   <li><a href="#professional-work">Professional Work</a>
     <ul>
+      <li><a href="#hypereel-vietnam-ygg-vietnam">HypeReel Vietnam (YGG Vietnam)</a></li>
+      <li><a href="#thankslab-vn">Thankslab VN</a></li>
       <li><a href="#altair-breaker">Altair-breaker</a></li>
       <li><a href="#x8">X8</a></li>
       <li><a href="#izone-remember-z---prince-of-legend-love-royale">IZONE Remember Z - PRINCE OF LEGEND LOVE ROYALE</a></li>
@@ -25,9 +27,45 @@
 
 <h1 id="professional-work">Professional Work</h1>
 
+<h2 id="hypereel-vietnam-ygg-vietnam">HypeReel Vietnam (YGG Vietnam)</h2>
+<p><a href="https://lol.land"><strong>Official Page</strong></a><br />
+<strong>Company</strong>: <a href="https://hypereel.io/">HypeReel Vietnam</a> (<a href="https://www.yggplay.fun">YGG Vietnam</a>)<br />
+<strong>Year</strong>: 2024 - Present</p>
+
+<p>Unity team leadership and engineering management for Web3 game production.</p>
+<ul>
+  <li>Oversee client game development processes on the engineering side.</li>
+  <li>Design and maintain in-house game development framework.</li>
+  <li>Evaluate and define technical stack and technical direction for company projects.</li>
+  <li>Lead hiring process and mentorship programs for the engineering team.</li>
+  <li>Participate in game design discussions and provide technical feedback on features.</li>
+  <li>Manage team operations and contribute to broader organizational planning.</li>
+  <li>Collaborate with overseas engineers and cross-functional teams to deliver high-quality production.</li>
+  <li>Design workflows, skill standards, and pipelines for engineers co-working with AI agents.</li>
+  <li>Work with Unity WebGL, AI agent workflows, AWS, GCP, Jenkins, and GitHub Actions.</li>
+</ul>
+
+<hr />
+
+<h2 id="thankslab-vn">Thankslab VN</h2>
+<p><strong>Company</strong>: Thankslab VN<br />
+<strong>Year</strong>: 2024 - 2026</p>
+
+<p>Senior Unity development role supporting cross-team production between Vietnam and Japan.</p>
+<ul>
+  <li>Implemented native plugins for Google, X (Twitter), and LINE login service integrations.</li>
+  <li>Reworked and improved the networking system architecture.</li>
+  <li>Designed new development workflow and coding standards for the Vietnam team.</li>
+  <li>Conducted code reviews and mentored junior developers.</li>
+  <li>Collaborated with Japan-side engineers to keep cross-team development smooth.</li>
+  <li>Worked onsite from Apr 2024 to Jul 2024, then continued as a remote freelancer from Aug 2024 to Feb 2026.</li>
+</ul>
+
+<hr />
+
 <h3 id="altair-breaker">Altair-breaker</h3>
 <p><a href="https://altair-breaker.com"><strong>Official Page</strong></a><br />
-<strong>Company</strong>: <a href="https://www.thirdverse.io/ja/">Thirdverse, Co., Ltd (Japan)</a><br />
+<strong>Company</strong>: <a href="https://www.thirdverse.io">Thirdverse, Co., Ltd</a>
 <strong>Year</strong>: 2022</p>
 
 <p>Release Globally on Steam, Meta Quest Store and PlayStation VR2, this is a VR multiplayer Sword-fighting game.</p>
@@ -46,7 +84,7 @@
 
 <h2 id="x8">X8</h2>
 <p><a href="https://playx8vr.com/en/"><strong>Official Page</strong></a>  <br />
-<strong>Company</strong>: <a href="https://www.thirdverse.io/ja/">Thirdverse, Co., Ltd (Japan)</a>, <a href="https://www.thirdverse.io/en/">Thirdverse, Inc. (US)</a><br />
+<strong>Company</strong>: <a href="https://www.thirdverse.io">Thirdverse, Co., Ltd</a>
 <strong>Year</strong>: 2022 - 2023</p>
 
 <p>Currently Release Globally on Steam, Meta Quest Store and soon will be release on PlayStation VR2, a VR multiplayer shooter game.</p>
@@ -119,7 +157,7 @@ X8 was introduce by Meta at Meta connect 2023 event</p>
 <hr />
 
 <h2 id="crane-remote-control-simulation-application">Crane Remote Control Simulation application</h2>
-<p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a>
+<p><strong>Company</strong>: <a href="https://www.pocket-queries.co.jp/">PocketQueries</a>
 <strong>Year</strong>: 2018</p>
 
 <p>This is a prototype simulation app using Oculus Rift and Haptic device, 3D mouse to control the crane remotely. The purpose of this app is not for business but for research and exhibition.</p>
@@ -131,7 +169,7 @@ X8 was introduce by Meta at Meta connect 2023 event</p>
 </ul>
 
 <h2 id="motion-capture-using-openpose-library">Motion capture using OpenPose Library</h2>
-<p><strong>Company</strong>: <a href="http://quantize-world.com/">PocketQueries</a><br />
+<p><strong>Company</strong>: <a href="https://www.pocket-queries.co.jp/">PocketQueries</a><br />
 <strong>Year</strong>: 2018</p>
 
 <p>A project that use for exhibition for VTuber. Using <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> library and webcam to detect humance motion, capture motion bone data and use that data to update a 3D model inside unity.</p>

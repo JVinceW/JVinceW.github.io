@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Resume — Quyen Vuong</title>
+<style>
+:root{
+  --accent:#0F141F;
+  --text:#222;
+  --muted:#6b7280;
+  --sidebar-bg:#f3f4f6;
+  --page-w: 794px;
+  --page-h: 1123px;
+  --font-primary: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+  --font-secondary: "Source Serif Pro",Georgia,serif;
+}
+@page{size:A4;margin:0;background:#fff;}
+*{box-sizing:border-box;}
+html{background:#e5e7eb;}
+body{margin:0;background:#e5e7eb;font-family:var(--font-primary);color:var(--text);}
+.page{width:var(--page-w);min-height:var(--page-h);margin:24px auto;background:#fff;
+      box-shadow:0 4px 20px rgba(0,0,0,.15);display:grid;grid-template-columns:34% 66%;}
+.sidebar{background:var(--sidebar-bg);padding:28px 22px;color:#1f2937;}
+.avatar-wrap{width:160px;height:160px;border-radius:50%;overflow:hidden;margin:0 auto 18px;background:#ddd;}
+.avatar-wrap img{width:100%;height:100%;object-fit:cover;display:block;}
+.sidebar h2,.main h2{font-family:var(--font-secondary);font-size:13px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--accent);margin:22px 0 8px;
+  border-bottom:1px solid #d1d5db;padding-bottom:4px;}
+.kv{font-size:11.5px;line-height:1.5;}
+.kv .label{color:var(--muted);display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;}
+.kv + .kv{margin-top:8px;}
+.kv a{color:var(--accent);text-decoration:none;word-break:break-all;}
+.skill,.lang{font-size:11.5px;margin:7px 0;}
+.bar{height:4px;background:#d1d5db;border-radius:2px;margin-top:3px;overflow:hidden;}
+.bar > span{display:block;height:100%;background:var(--accent);}
+.main{padding:28px 26px;}
+.header h1{font-family:var(--font-secondary);font-size:30px;margin:0;color:var(--accent);
+  line-height:1.1;letter-spacing:.01em;}
+.header .role{font-size:14px;color:var(--muted);margin-top:4px;}
+.entry{margin-bottom:14px;}
+.entry .row1{display:flex;justify-content:space-between;gap:8px;font-size:12.5px;}
+.entry .title{font-weight:600;}
+.entry .meta{color:var(--muted);font-size:11.5px;}
+.entry .body,.profile{font-size:12px;line-height:1.5;}
+.entry .body ul,.profile ul{margin:4px 0 0 18px;padding:0;}
+.entry .body p,.profile p{margin:4px 0;}
+@media print{
+  html,body{width:var(--page-w);margin:0;background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  .page{box-shadow:none;margin:0;break-after:page;}
+}
+</style>
+</head>
+<body>
+<div class="page" id="page"></div>
+
+<!-- ============ DATA ============ -->
+<script>
+window.RESUME = {
+  meta: {
+    accent: "#0F141F",
+    sectionsOrder: ["profile","workExperiences","educations","custom:1348646928","custom:2180639446"],
+    sidebarOrder: ["details","links","skills","languages","hobbies"]
+  },
+  header: {
+    fullName: "Quyen Vuong",
+    role: "Game Developer",
+    avatar: "https://s3.resume.io/uploads/profile_picture/file/6851465/medium_squared_269fd309bc9e0716b77e22afb822d4a4.jpg?version=44a799bf7"
+  },
+  details: {
+    "Phone": "+81 90 1693 9896",
+    "Email": { text: "jvvincewang@gmail.com", href: "mailto:jvvincewang@gmail.com" },
+    "Location": "Kanagawa Prefecture, Japan",
+    "Date of Birth": "1992",
+    "Birth Place": "Vietnam"
+  },
+  links: [
+    { label: "LinkedIn", text: "linkedin.com/in/vince-wang", href: "https://www.linkedin.com/in/vince-wang-b30b8612a/" },
+    { label: "PSM2 Certificate", text: "bit.ly/3qAW6kD", href: "https://bit.ly/3qAW6kD" },
+    { label: "Portfolio", text: "jvincew.github.io", href: "https://jvincew.github.io/" },
+    { label: "Qiita Blog", text: "qiita.com/jvince", href: "https://qiita.com/jvince" }
+  ],
+  skills: [
+    { name: "C#", level: "experienced" },
+    { name: "Unity", level: "experienced" },
+    { name: "PlayFab", level: "experienced" },
+    { name: "Git", level: "experienced" },
+    { name: "Java", level: "skillful" },
+    { name: "C++", level: "skillful" },
+    { name: "PostgreSQL", level: "skillful" },
+    { name: "MongoDB", level: "skillful" },
+    { name: "Python", level: "skillful" },
+    { name: "AWS", level: "skillful" },
+    { name: "Agile Scrum", level: "skillful" },
+    { name: "Microsoft Azure", level: "skillful" },
+    { name: "Perforce", level: "skillful" },
+    { name: "Shell", level: "beginner" },
+    { name: "Cocos2d-x", level: "beginner" },
+    { name: "MySQL", level: "beginner" }
+  ],
+  languages: [
+    { name: "Vietnamese", level: "advanced" },
+    { name: "Cantonese", level: "advanced" },
+    { name: "Japanese", level: "upper_intermediate" },
+    { name: "English", level: "low_intermediate" },
+    { name: "Chinese", level: "low_intermediate" }
+  ],
+  hobbies: "Coding, Streaming Coding,...<br>Play Guitar, MOBA games, Basketball<br>Watch anime, manga...",
+  profile: "<p>Game developer and engineering leader with 10+ years of experience building Unity-based games, XR applications, backend-integrated systems, editor tools, and production workflows across Japan and Vietnam.</p><p>Experienced across simulation games, match-3, turn-based card games, idle games, blockchain games, VR/XR, gameplay systems, networking, APIs, UI, AI-related features, and internal development frameworks. I focus on building scalable systems, improving team productivity, and delivering production-ready features in collaboration with cross-functional and international teams.</p><p>Currently leading Unity engineering efforts, mentoring developers, defining technical direction, and designing workflows for engineers working with AI agents. I am interested in applying game development, software architecture, and leadership experience to broader product and technology challenges.</p>",
+  work: [
+    {
+      title: "Unity Team Leader &amp; Engineering Manager · HypeReel Vietnam (YGG Vietnam)",
+      meta: "Sep 2024 – Present",
+      location: "Vietnam",
+      body: "<ul><li>Oversee all client game development processes on the engineering side.</li><li>Design and maintain in-house game development framework.</li><li>Evaluate and define tech stack and technical direction for company projects.</li><li>Lead hiring process and mentorship programs for the engineering team.</li><li>Participate in game design discussions to provide technical feedback on features.</li><li>Manage team operations and contribute to broader organizational planning.</li><li>Collaborate with overseas engineers and cross-functional teams to achieve high-quality production and delivery.</li><li>Design workflows, skill standards, and pipelines for engineers co-working with AI agents.</li><li>Deliver high-quality productions in the Web3 game industry.</li></ul><p>Tech stack: Unity WebGL · AI Agent · AWS · GCP · Jenkins · GitHub Actions</p>"
+    },
+    {
+      title: "Senior Unity Developer · Thankslab VN",
+      meta: "Apr 2024 – Feb 2026",
+      location: "Ho Chi Minh, Vietnam",
+      body: "<ul><li>Implemented native plugins for Google, X (Twitter), and LINE login service integrations.</li><li>Reworked and improved the networking system architecture.</li><li>Designed new development workflow and coding standards for the Vietnam team.</li><li>Conducted code reviews and mentored junior developers.</li><li>Collaborated with Japan-side engineers to ensure smooth cross-team development.</li></ul><p>(Apr 2024 – Jul 2024: onsite · Aug 2024 – Feb 2026: remote freelancer)</p>"
+    },
+    {
+      title: "VR Game Developer · Thirdverse.inc",
+      meta: "Jun 2022 – Jan 2023",
+      location: "Tokyo, Japan",
+      body: "<ul><li>Implement Game-play logic and game battle system.</li><li>Research and implement shader and VFX for battle scenes and environment.</li><li>Worked as a bridge engineer, designing, and implementing back-end game systems, translating and managing the communication between the Japan team and the US team.</li></ul><p>Platform: Meta Quest 2, Pico, PSVR2</p><p>Technologies:</p><ul><li>Unity: Addressable, VContainer, Shader Graph, Final IK, A* Path Finding,...</li><li>UE4 C++, UE4 Blueprint.</li></ul>"
+    },
+    {
+      title: "Client Engineer · 10ANTZ Co.Ltd",
+      meta: "Jun 2019 – May 2022",
+      location: "Japan",
+      body: "<ul><li>Design and develop the game core system, Unity editor tool to speed up the development process.</li><li>Implement game features and improve the existing game system.</li><li>R&amp;D team, focus on research and create XR application prototype.</li></ul>"
+    },
+    {
+      title: "System Engineer - BrSE - Technical Support · Pocket Queries Co.Ltd",
+      meta: "Jun 2018 – Apr 2019",
+      location: "Japan",
+      body: "<ul><li>Focus on developing training simulation applications in VR environment.</li><li>Take part in working support system development on MR environment.</li><li>Working with Openpose AI lib to capture real animation bone and parse it into Unity 3D model.</li><li>Focus on improving development process management.</li><li>Management Vietnam team schedule.</li><li>Work as bridge system engineer between Vietnam side and Japan side.</li><li>Work as a technical consultant, working directly with clients to propose solutions to their problems.</li></ul>"
+    },
+    {
+      title: "System Engineer - Team Sub Leader · GREST Co.Ltd - CyberAgent",
+      meta: "Jan 2015 – May 2018",
+      location: "Japan",
+      body: "<ul><li>Focus on implementing game features and improving development process management on new game projects.</li><li>Conducted research on Unity assets to implement into our project.</li><li>Participated in code review processes and formulated designing standards.</li><li>Designed and developed the game core system.</li><li>Designed and developed Unity Editor tool to speed up development time and operation process.</li><li>Implemented game events, maintained game server.</li><li>Migrated game chatting database from MongoDB to PostgreSQL.</li><li>Participated in new game prototype development on Cocos2d-x.</li><li>Managed team schedule, broke down task list, discussed and adjusted development timetable.</li></ul>"
+    },
+    {
+      title: "Programmer · FUJINET SYSTEM JSC",
+      meta: "Jul 2014 – Dec 2014",
+      location: "Ho Chi Minh, Viet Nam",
+      body: "<ul><li>Implement MS Reporting Service into product.</li></ul>"
+    },
+    {
+      title: "Programmer · Chingluh Viet Nam",
+      meta: "May 2013 – Jun 2014",
+      location: "Viet Nam",
+      body: "<ul><li>Translated documents and communication between Vietnamese development team and Chinese customer.</li><li>Team schedule management, maintained, designed, and developed features based on requirements.</li></ul>"
+    }
+  ],
+  education: [
+    {
+      title: "Bachelor’s Degree in Software Development",
+      meta: "Nov 2010 – Apr 2013",
+      location: "Saigon Technology University, Viet Nam",
+      body: null
+    },
+    {
+      title: "Certificate of Developing Program with C#",
+      meta: "May 2013 – Jul 2013",
+      location: "University of Science Ho Chi Minh City, Viet Nam",
+      body: null
+    },
+    {
+      title: "Certificate of JLPT N2 Level",
+      meta: "Aug 2018",
+      location: "Self Study, Tokyo, Japan",
+      body: null
+    },
+    {
+      title: "PSM2",
+      meta: null,
+      location: "Self Study",
+      body: "<p>Self-study PSM based on experience from the workplace. Took certificate after a year of applied Scrum in development.</p>"
+    }
+  ],
+  custom: {
+    "1348646928": {
+      heading: "Technical Detail",
+      items: [
+        {
+          title: "Unity",
+          meta: null,
+          location: null,
+          body: "<ul><li>Asset management: Addressable, Unity Legacy AssetBundle</li><li>Game-play packages: A* Path Finding, Unity Navmesh Agent, Odin Serializer, Final IK, Shader Graph, VContainer (DI), Cinemachine, Unity Native Plugin, Unity XR Interaction Toolkit, haptic plugins, Unity Input System, Netcode for GameObjects, TextMesh Pro, DOTween, Enhanced Scroller,...</li><li>Systems: Job System, UniTask.</li><li>Tracking &amp; analytics: Unity IAP, Firebase Remote Configuration.</li><li>Networking: Photon PUN, Photon Fusion, MessagePack, MagicOnion, PlayFab.</li><li>CI/CD: Jenkins, GitLab Runner, GitHub Actions, Python, Fastlane.</li></ul>"
+        },
+        {
+          title: "UE4 / UE5",
+          meta: null,
+          location: null,
+          body: "<ul><li>UE C++, UE Blueprint.</li></ul>"
+        },
+        {
+          title: "Back End",
+          meta: null,
+          location: null,
+          body: "<ul><li>AWS cloud services, Azure Functions, PlayFab,...</li></ul>"
+        }
+      ]
+    },
+    "2180639446": {
+      heading: "Freelance Projects",
+      items: [
+        {
+          title: "Unity Game Development Team Lead · Wanaka Tech Ltd",
+          meta: "May 2021 – Present",
+          location: "Tokyo",
+          body: "<ul><li>Research, design, and implement game core system and tools to speed up the development process.</li><li>Decide technologies to use in production; take part in development and code review with the team.</li><li>Manage team schedule. Scrum master.</li></ul><p>Platform: PC Standalone, macOS Standalone, iOS, Android</p><p>Technologies:</p><ul><li>Unity: Addressable, VContainer, Shader Graph, Final IK, A* Path Finding,...</li></ul>"
+        },
+        {
+          title: "Unity Game App Development · Mirabo Global JSC",
+          meta: "Jan 2019 – Present",
+          location: "Tokyo",
+          body: "<ul><li>Developing XR games and applications for Japan clients.</li><li>Working directly with clients to propose solutions for their problems.</li><li>Research and implement new technology to resolve client problems.</li><li>Bridge System Engineer.</li><li>Mentor for members at any level; skill-up and support members to resolve problems.</li></ul>"
+        }
+      ]
+    }
+  }
+};
+</script>
+
+<!-- ============ RENDERER ============ -->
+<script>
+const SKILL_PCT  = { beginner:25, skillful:60, experienced:85, expert:100 };
+const LANG_LABEL = { native:"Native", advanced:"Advanced",
+  upper_intermediate:"Upper intermediate",
+  low_intermediate:"Lower intermediate", elementary:"Elementary" };
+
+function entry({ title, meta, location, body }) {
+  return `<div class="entry">
+    <div class="row1">
+      <span class="title">${title||""}</span>
+      ${meta?`<span class="meta">${meta}</span>`:""}
+    </div>
+    ${location?`<div class="meta">${location}</div>`:""}
+    ${body?`<div class="body">${body}</div>`:""}
+  </div>`;
+}
+
+const SIDEBAR = {
+  details(r){
+    const rows = Object.entries(r.details||{}).map(([k,v])=>{
+      const inner = (v && typeof v==="object" && v.href)
+        ? `<a href="${v.href}">${v.text||v.href}</a>` : (v||"");
+      return `<div class="kv"><span class="label">${k}</span>${inner}</div>`;
+    }).join("");
+    return rows ? `<h2>Details</h2>${rows}` : "";
+  },
+  links(r){
+    if(!r.links||!r.links.length) return "";
+    const rows = r.links.map(l=>`<div class="kv"><span class="label">${l.label}</span>${
+      l.href?`<a href="${l.href}">${l.text||l.href}</a>`:(l.text||"")}</div>`).join("");
+    return `<h2>Links</h2>${rows}`;
+  },
+  skills(r){
+    if(!r.skills||!r.skills.length) return "";
+    const rows = r.skills.map(s=>{
+      const pct = SKILL_PCT[s.level] ?? 60;
+      return `<div class="skill">${s.name}<div class="bar"><span style="width:${pct}%"></span></div></div>`;
+    }).join("");
+    return `<h2>Skills</h2>${rows}`;
+  },
+  languages(r){
+    if(!r.languages||!r.languages.length) return "";
+    const rows = r.languages.map(l=>
+      `<div class="lang">${l.name} — <em>${LANG_LABEL[l.level]||l.level||""}</em></div>`
+    ).join("");
+    return `<h2>Languages</h2>${rows}`;
+  },
+  hobbies(r){
+    if(!r.hobbies) return "";
+    return `<h2>Hobbies</h2><div class="kv">${r.hobbies}</div>`;
+  }
+};
+
+const MAIN = {
+  profile(r){ return r.profile?`<h2>Profile</h2><div class="profile">${r.profile}</div>`:""; },
+  workExperiences(r){ return (r.work&&r.work.length)?`<h2>Employment History</h2>${r.work.map(entry).join("")}`:""; },
+  educations(r){ return (r.education&&r.education.length)?`<h2>Education</h2>${r.education.map(entry).join("")}`:""; },
+  customSection(r,key){
+    const sec = r.custom && r.custom[key];
+    if(!sec) return "";
+    return `<h2>${sec.heading}</h2>${(sec.items||[]).map(entry).join("")}`;
+  }
+};
+
+function render(RESUME){
+  if(!RESUME){ document.getElementById("page").innerHTML =
+    `<div style="padding:40px;font-family:sans-serif">
+      <h2>No RESUME data found</h2></div>`; return; }
+  document.documentElement.style.setProperty("--accent", RESUME.meta?.accent || "#0F141F");
+  const sidebarHTML = (RESUME.meta?.sidebarOrder||[]).map(k=>SIDEBAR[k]?SIDEBAR[k](RESUME):"").join("");
+  const mainHTML = (RESUME.meta?.sectionsOrder||[]).map(k=>{
+    if(k.startsWith("custom:")) return MAIN.customSection(RESUME, k.split(":")[1]);
+    return MAIN[k]?MAIN[k](RESUME):"";
+  }).join("");
+  document.getElementById("page").innerHTML = `
+    <aside class="sidebar">
+      <div class="avatar-wrap">${RESUME.header?.avatar?`<img src="${RESUME.header.avatar}" alt="">`:""}</div>
+      ${sidebarHTML}
+    </aside>
+    <main class="main">
+      <header class="header">
+        <h1>${RESUME.header?.fullName||""}</h1>
+        ${RESUME.header?.role?`<div class="role">${RESUME.header.role}</div>`:""}
+      </header>
+      ${mainHTML}
+    </main>`;
+}
+
+render(window.RESUME);
+</script>
+</body>
+</html>
